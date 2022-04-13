@@ -1,0 +1,395 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1098,5): warning MSB8027: Two or more files with the name of debug_log.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are edge-impulse-sdk\porting\arduino\debug_log.cpp, edge-impulse-sdk\porting\himax\debug_log.cpp, edge-impulse-sdk\porting\mbed\debug_log.cpp, edge-impulse-sdk\porting\mingw32\debug_log.cpp, edge-impulse-sdk\porting\posix\debug_log.cpp, edge-impulse-sdk\porting\raspberry\debug_log.cpp, edge-impulse-sdk\porting\silabs\debug_log.cpp, edge-impulse-sdk\porting\sony\debug_log.cpp, edge-impulse-sdk\porting\stm32-cubeai\debug_log.cpp, edge-impulse-sdk\porting\synaptics\debug_log.cpp, edge-impulse-sdk\porting\ti\debug_log.cpp, edge-impulse-sdk\porting\zephyr\debug_log.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1098,5): warning MSB8027: Two or more files with the name of ei_classifier_porting.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are edge-impulse-sdk\porting\arduino\ei_classifier_porting.cpp, edge-impulse-sdk\porting\himax\ei_classifier_porting.cpp, edge-impulse-sdk\porting\mbed\ei_classifier_porting.cpp, edge-impulse-sdk\porting\mingw32\ei_classifier_porting.cpp, edge-impulse-sdk\porting\posix\ei_classifier_porting.cpp, edge-impulse-sdk\porting\raspberry\ei_classifier_porting.cpp, edge-impulse-sdk\porting\silabs\ei_classifier_porting.cpp, edge-impulse-sdk\porting\sony\ei_classifier_porting.cpp, edge-impulse-sdk\porting\stm32-cubeai\ei_classifier_porting.cpp, edge-impulse-sdk\porting\synaptics\ei_classifier_porting.cpp, edge-impulse-sdk\porting\ti\ei_classifier_porting.cpp, edge-impulse-sdk\porting\zephyr\ei_classifier_porting.cpp.
+  ei_run_classifier_c.cpp
+  fast-dct-fft.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  processing.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\image\processing.cpp(26,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/dsp/ei_utils.h': No such file or directory
+  kiss_fft.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  kiss_fftr.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  memory.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  Generating Code...
+  Compiling...
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  debug_log.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  ei_classifier_porting.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/debug_log.h': No such file or directory
+  error_reporter.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\core\api\error_reporter.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.h': No such file or directory
+  flatbuffer_conversions.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\core\api\flatbuffer_conversions.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h': No such file or directory
+  op_resolver.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\core\api\op_resolver.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.h': No such file or directory
+  tensor_utils.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\core\api\tensor_utils.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.h': No such file or directory
+  quantization_util.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\kernels\internal\quantization_util.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.h': No such file or directory
+  kernel_util_lite.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\kernels\kernel_util_lite.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/kernel_util.h': No such file or directory
+  all_ops_resolver.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\all_ops_resolver.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.h': No such file or directory
+  activations.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\activations.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  add.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\add.cc(517,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/add.h': No such file or directory
+  add_n.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\add_n.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/add_n.h': No such file or directory
+  Generating Code...
+  Compiling...
+  arg_min_max.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\arg_min_max.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/arg_min_max.h': No such file or directory
+  batch_to_space_nd.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\batch_to_space_nd.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h': No such file or directory
+  cast.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\cast.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  ceil.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\ceil.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/ceil.h': No such file or directory
+  circular_buffer.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\circular_buffer.cc(17,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flexbuffers.h': No such file or directory
+  comparisons.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\comparisons.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/comparisons.h': No such file or directory
+  concatenation.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\concatenation.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/concatenation.h': No such file or directory
+  conv.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\conv.cc(1341,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.h': No such file or directory
+  conv_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\conv_common.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  depthwise_conv.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\depthwise_conv.cc(1370,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.h': No such file or directory
+  depthwise_conv_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\depthwise_conv_common.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  dequantize.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\dequantize.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/dequantize.h': No such file or directory
+  div.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\div.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/div.h': No such file or directory
+  elementwise.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\elementwise.cc(18,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  elu.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\elu.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/elu.h': No such file or directory
+  ethosu.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\ethosu.cc(17,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flexbuffers.h': No such file or directory
+  exp.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\exp.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/exp.h': No such file or directory
+  expand_dims.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\expand_dims.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  fill.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\fill.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/fill.h': No such file or directory
+  floor.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\floor.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/floor.h': No such file or directory
+  Generating Code...
+  Compiling...
+  fully_connected.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\fully_connected.cc(1095,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.h': No such file or directory
+  fully_connected_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\fully_connected_common.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  hard_swish.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\hard_swish.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/hard_swish.h': No such file or directory
+  kernel_runner.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\kernel_runner.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_runner.h': No such file or directory
+  kernel_util_micro.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\kernel_util_micro.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/kernel_util.h': No such file or directory
+  l2norm.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\l2norm.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  l2_pool_2d.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\l2_pool_2d.cc(18,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  leaky_relu.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\leaky_relu.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/leaky_relu.h': No such file or directory
+  logical.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\logical.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  logistic.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\logistic.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h': No such file or directory
+  maximum_minimum.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\maximum_minimum.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/maximum_minimum.h': No such file or directory
+  mli_slicers.cc
+  mul.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\mul.cc(248,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/mul.h': No such file or directory
+  neg.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\neg.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/neg.h': No such file or directory
+  pack.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\pack.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  pad.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\pad.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pad.h': No such file or directory
+  pooling.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\pooling.cc(1213,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pooling.h': No such file or directory
+  prelu.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\prelu.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/prelu.h': No such file or directory
+  quantize.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\quantize.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.h': No such file or directory
+  quantize_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\quantize_common.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  Generating Code...
+  Compiling...
+  reduce.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\reduce.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/reduce.h': No such file or directory
+  reshape.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\reshape.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  resize_nearest_neighbor.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\resize_nearest_neighbor.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h': No such file or directory
+  round.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\round.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/round.h': No such file or directory
+  scratch_buffers.cc
+  scratch_buf_mgr.cc
+  shape.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\shape.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  softmax.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\softmax.cc(135,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.h': No such file or directory
+  softmax_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\softmax_common.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  space_to_batch_nd.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\space_to_batch_nd.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/space_to_batch_nd.h': No such file or directory
+  split.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\split.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  split_v.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\split_v.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  squeeze.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\squeeze.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  strided_slice.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\strided_slice.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/strided_slice.h': No such file or directory
+  sub.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\sub.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/sub.h': No such file or directory
+  svdf.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\svdf.cc(503,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.h': No such file or directory
+  svdf_common.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\svdf_common.cc(18,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  tanh.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\tanh.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/tanh.h': No such file or directory
+  tflite_detection_postprocess.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\tflite_detection_postprocess.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flexbuffers.h': No such file or directory
+  transpose_conv.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\transpose_conv.cc(371,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/transpose_conv.h': No such file or directory
+  Generating Code...
+  Compiling...
+  unpack.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\unpack.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h': No such file or directory
+  zeros_like.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\kernels\zeros_like.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/c/common.h': No such file or directory
+  memory_helpers.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\memory_helpers.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.h': No such file or directory
+  greedy_memory_planner.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\memory_planner\greedy_memory_planner.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h': No such file or directory
+  linear_memory_planner.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\memory_planner\linear_memory_planner.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.h': No such file or directory
+  micro_allocator.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_allocator.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h': No such file or directory
+  micro_error_reporter.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_error_reporter.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.h': No such file or directory
+  micro_interpreter.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_interpreter.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h': No such file or directory
+  micro_profiler.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_profiler.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.h': No such file or directory
+  micro_string.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_string.cc(22,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_string.h': No such file or directory
+  micro_time.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_time.cc(28,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_time.h': No such file or directory
+  micro_utils.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\micro_utils.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/micro_utils.h': No such file or directory
+  recording_micro_allocator.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\recording_micro_allocator.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.h': No such file or directory
+  recording_simple_memory_allocator.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\recording_simple_memory_allocator.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.h': No such file or directory
+  schema_utils.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\schema_utils.cc(15,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/schema/schema_utils.h': No such file or directory
+  simple_memory_allocator.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\simple_memory_allocator.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.h': No such file or directory
+  system_setup.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\system_setup.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/system_setup.h': No such file or directory
+  test_helpers.cc
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\tensorflow\lite\micro\test_helpers.cc(16,10): fatal error C1083: Cannot open include file: 'edge-impulse-sdk/tensorflow/lite/micro/test_helpers.h': No such file or directory
+  main.cpp
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(91,17): error C3861: 'format': identifier not found
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(91,39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\porting\ei_classifier_porting.h(92,1): error C2062: type 'void' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529,20): error C2065: 'weak': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529,27): error C2062: type 'void' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529,60): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529,60): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,20): error C2065: 'weak': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,5): error C2374: 'std::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(529): message : see declaration of 'std::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,27): error C2062: type 'void' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,66): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy_types.h(530,66): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55,25): error C2062: type 'void' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(56,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(56,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(93,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(93,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(93,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(93,25): error C2062: type 'void' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(94,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(94,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970,19): error C2059: syntax error: '('
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970,34): error C2059: syntax error: ')'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970,36): warning C4183: '__attribute__': missing return type; assumed to be a member function returning 'int'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1999,19): error C2059: syntax error: '('
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1999,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1999,34): error C2535: 'int ei::numpy::__attribute__(void)': member function already defined or declared
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970): message : see declaration of 'ei::numpy::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1999,34): error C2059: syntax error: ')'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1999,36): warning C4183: '__attribute__': missing return type; assumed to be a member function returning 'int'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(2020,19): error C2059: syntax error: '('
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(2020,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(2020,34): error C2535: 'int ei::numpy::__attribute__(void)': member function already defined or declared
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(1970): message : see declaration of 'ei::numpy::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(2020,34): error C2059: syntax error: ')'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\numpy.hpp(2020,36): warning C4183: '__attribute__': missing return type; assumed to be a member function returning 'int'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(99,20): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(99,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(99,29): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(100,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(100,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(435,20): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(435,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(435,5): error C2374: 'ei::spectral::processing::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(99): message : see declaration of 'ei::spectral::processing::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(435,29): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(441,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\spectral\processing.hpp(441,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\speechpy\processing.hpp(172,20): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\speechpy\processing.hpp(172,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\speechpy\processing.hpp(172,29): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\speechpy\processing.hpp(173,5): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\dsp\speechpy\processing.hpp(173,5): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,148): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(54,148): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(155,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(155,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(155,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(155,25): error C2146: syntax error: missing ';' before identifier 'matrix_i16_t'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(156,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(156,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,134): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(200,134): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,138): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(230,138): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,144): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(336,144): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,186): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(440,186): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,151): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(606,151): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,193): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(714,193): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,143): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(878,143): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,185): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1018,185): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,136): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1235,136): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,16): error C2065: 'unused': undeclared identifier
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,1): error C2374: '`anonymous-namespace'::__attribute__': redefinition; multiple initialization
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_aligned_malloc.h(55): message : see declaration of '`anonymous-namespace'::__attribute__'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,25): error C2062: type 'int' unexpected
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,67): error C2143: syntax error: missing ';' before '{'
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,67): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Mani\Desktop\thesis\cc++\edge-impulse-sdk\classifier\ei_run_dsp.h(1401,67): fatal error C1003: error count exceeds 100; stopping compilation
+  SerialPort.cpp
+  Generating Code...
+  Compiling...
+  tflite-trained.cpp
+  Generating Code...

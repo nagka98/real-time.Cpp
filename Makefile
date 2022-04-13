@@ -3,7 +3,7 @@ CC ?= gcc
 CXX ?= g++
 
 # Settings
-NAME = app
+NAME = app_console
 BUILD_PATH = ./build
 
 # Location of main.cpp (must use C++ compiler for main)
@@ -48,7 +48,7 @@ CXXSOURCES += 	$(wildcard tflite-model/*.cpp) \
 CCSOURCES +=
 
 # Use TensorFlow Lite for Microcontrollers (TFLM)
-CFLAGS += -DTF_LITE_DISABLE_X86_NEON=1
+# CFLAGS += -DTF_LITE_DISABLE_X86_NEON=0
 CSOURCES +=	edge-impulse-sdk/tensorflow/lite/c/common.c
 CCSOURCES +=	$(wildcard edge-impulse-sdk/tensorflow/lite/kernels/*.cc) \
 				$(wildcard edge-impulse-sdk/tensorflow/lite/kernels/internal/*.cc) \
@@ -56,6 +56,25 @@ CCSOURCES +=	$(wildcard edge-impulse-sdk/tensorflow/lite/kernels/*.cc) \
 				$(wildcard edge-impulse-sdk/tensorflow/lite/micro/*.cc) \
 				$(wildcard edge-impulse-sdk/tensorflow/lite/micro/memory_planner/*.cc) \
 				$(wildcard edge-impulse-sdk/tensorflow/lite/core/api/*.cc)
+
+ifeq (${USE_FULL_TFLITE},1)
+CFLAGS += -DEI_CLASSIFIER_USE_FULL_TFLITE=1
+CFLAGS += -Itensorflow-lite/
+
+ifeq (${TARGET_LINUX_ARMV7},1)
+LDFLAGS += -L./tflite/linux-armv7 -Wl,--no-as-needed -ldl -ltensorflow-lite -lcpuinfo -lfarmhash -lfft2d_fftsg -lfft2d_fftsg2d -lruy -lXNNPACK -lpthread
+endif # TARGET_LINUX_ARMV7
+ifeq (${TARGET_LINUX_AARCH64},1)
+LDFLAGS += -L./tflite/linux-aarch64 -ldl -ltensorflow-lite -lcpuinfo -lfarmhash -lfft2d_fftsg -lfft2d_fftsg2d -lruy -lXNNPACK -lpthread
+endif # TARGET_LINUX_AARCH64
+ifeq (${TARGET_LINUX_X86},1)
+LDFLAGS += -L./tflite/linux-x86 -Wl,--no-as-needed -ldl -ltensorflow-lite -lcpuinfo -lfarmhash -lfft2d_fftsg -lfft2d_fftsg2d -lruy -lXNNPACK -lpthread
+endif # TARGET_LINUX_X86
+ifeq (${TARGET_MAC_X86_64},1)
+LDFLAGS += -L./tflite/mac-x86_64 -ltensorflow-lite -lcpuinfo -lfarmhash -lfft2d_fftsg -lfft2d_fftsg2d -lruy -lXNNPACK -lpthreadpool -lclog
+endif # TARGET_MAC_X86_64
+
+endif # USE_FULL_TFLITE
 
 # Include CMSIS-NN if compiling for an Arm target that supports it
 ifeq (${CMSIS_NN}, 1)
